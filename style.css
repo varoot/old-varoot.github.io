@@ -1,8 +1,36 @@
-/* Test */
-a.btn[href^="http"] {
-	background-color: deepPink;
+body {
+  background-color: darkgoldenrod;
 }
 
-ul.linear > li:nth-child(2n+1) {
-	color: red;
+.container {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: goldenrod;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.footer {
+  padding: 10px 0;
+}
+
+.footer a {
+  display: block;
+  padding: 10px;
+}
+
+.facebook-link {
+  background-color: darkblue;
+  color: white;
+}
+
+.twitter-link {
+  background-color: aqua;
+  color: white;
 }
